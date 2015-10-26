@@ -1,0 +1,659 @@
+body {
+    background: #dbd9d0;
+}
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+div.topBar {
+    width: 100%;
+    height: 55px;
+    background: #8e8c83;
+    border: 1px solid black;
+}
+div.settings {
+    position: relative;
+
+    width: 3%;
+    height: 55px;
+    background: #5b5a54;
+    float: left;
+}
+img#settingsButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+div.signInHolder {
+    position: relative;
+    width: 7%;
+    height: 47px;
+    top: 3px;
+    left: 78%;
+    float: left;
+}
+img#signUpButton {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+div.logInHolder {
+    position: relative;
+    left: 90%;
+    height: 45px;
+    top: 5px;
+    
+}
+img#signInButton {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+div.container {
+    width: 80%;
+    height: 800px;
+    background: #8e8c83;
+    margin-left: 10%;
+}
+div.banner {
+    width: 99.9%;
+    background: #8e8c83;
+    height: 250px;
+}
+img#bannerImage {
+    position: relative;
+    width: 100%;
+}
+ul.indexNav {
+    list-style-type: none;
+    width: 100%;
+    margin-top: -9.8%;
+    margin-left: -3%
+
+}
+ul.indexNav > li {
+    height: 50px;
+    float: left;
+    width: 16.6%;
+    text-align: center;
+}
+ul.indexNav > li > a {
+    border: 1px solid black;
+    display: block;
+    height: 50px;
+    text-decoration: none;
+    font-size: 250%;
+    background: #5b5a54;
+    text-shadow:  -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+ul.indexSublist1 {
+    display: none;
+}
+
+ul.indexNav > li:hover > ul.indexSublist1 {
+    position: absolute;
+    width: 50%;
+    height: 34%;
+    display: block;
+    background: #5b5a54;
+    border: 1px solid black;
+    z-index: 1;
+}
+ul.indexSublist1 > li {
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: -1%;
+    height: 34px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+ul.indexSublist1 > li > a {
+    font-size: 1.7em;
+    height: 100%;
+    color: black;
+    display: block;
+}
+ul.indexSublist1 > li:hover > a {
+    font-size: 1.7em;
+    height: 100%;
+    color: black;
+    display: block;
+    background: #8e8c83;
+}
+.overflowLiSublist1 {
+    margin-left: 40%;
+    margin-top: -50.5%;
+    margin-bottom: 55px;
+}
+.overflowLiSublist1SecLi {
+    margin-left: 40%;
+}
+ul#secUl {
+    width: 30%;
+}
+.overflowLiSublist1ThiLi {
+    margin-left: 40%;
+}
+.overflowLiSublist1FouLi {
+    margin-left: 30%;
+}
+.overflowLiSublist1FifLi {
+    margin-left: 30%;
+}
+.overflowLiSublist1SixLi {
+    margin-left: 50%;
+}
+ul#fouUl {
+    width: 45%;
+}
+li.fourthUlLi1 {
+    margin-left: 27%;
+    margin-top: -34%;
+}
+li.fourthUlLi2, li.fourthUlLi3, li.fourthUlLi4, li.fourthUlLi5 {
+    margin-left: 27%;
+}
+li.fourthUlLi6 {
+    margin-left: 54%;
+    margin-top: -33.5%;
+}
+
+
+
+
+//videos//
+
+
+ul.indexSublistMod {
+    display: none;
+}
+ul.indexSublistMod li {
+    display: none;
+}
+ul.indexNav > li:hover > ul.indexSublistMod {
+    position: absolute;
+    left: 40%;
+    width: 40%;
+    height: 34%;
+    display: block;
+    background: #5b5a54;
+    border: 1px solid black;
+    z-index: 1;
+}
+ul.indexNav > li:hover > ul.indexSublistMod > li {
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: -1%;
+    height: 34px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 12px;
+    display: block;
+}
+ul.indexNav > li > ul.indexSublistMod > li > a {
+    font-size: 1.7em;
+    height: 100%;
+    color: black;
+    display: block;
+}
+ul.indexNav > li > ul.indexSublistMod > li:hover > a {
+    font-size: 1.7em;
+    height: 100%;
+    color: black;
+    display: block;
+    background: #8e8c83;
+}
+.twoLines {
+    font-size: .6em;
+    line-height: 35px;
+}
+#twoLines {
+    font-size: .6em;
+    line-height: 35px;
+}
+li.fifthUlLi1 {
+    margin-left: 30%;
+    margin-top: -38%;
+}
+li.fifthUlLi2, li.fifthUlLi3, li.fifthUlLi4, li.fifthUlLi5 {
+    margin-top: 0%;
+    margin-left: 30%;
+}
+ul.indexNav > li > ul.indexSublistMod2 {
+    position: absolute;
+    left: 57%;
+    width: 30%;
+    height: 34%;
+    display: block;
+    background: #5b5a54;
+    display: none;
+    z-index: 1;
+}
+ul.indexNav > li:hover > ul.indexSublistMod2 {
+    position: absolute;
+    left: 75%;
+    width: 12%;
+    height: 34%;
+    display: block;
+    background: #5b5a54;
+    border: 1px solid black;
+}
+ul.indexNav > li:hover > ul.indexSublistMod2 > li {
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: -1%;
+    height: 34px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 12px;
+    display: block;
+}
+ul.indexNav > li > ul.indexSublistMod2 > li > a {
+    font-size: 1.7em;
+    height: 100%;
+    color: black;
+    display: block;
+}
+ul.indexNav > li > ul.indexSublistMod2 > li:hover > a {
+    font-size: 1.7em;
+    height: 100%;
+    color: black;
+    display: block;
+    background: #8e8c83;
+}
+div#galleryPicHolder {
+    position: relative;
+    width: 68%;
+    height: 60%;
+    top: 45px;
+    left: 31%;
+    background: #8e8c83;
+    border: 2px outset #5b5a54;
+    border: -moz- 2px outset #5b5a54;
+    border: -ms- 2px outset #5b5a54;
+}
+img#mainImg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+img#circleButton {
+    position: absolute;
+    bottom: 1%;
+    left: 40%;
+    float: left;
+}
+img#circleButton2 {
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    float: left;
+}
+img#circleButton3 {
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    float: left;
+}
+img#circleButton4 {
+    position: absolute;
+    bottom: 1%;
+    left: 55%;
+    float: left;
+}
+img#circleButton5 {
+    position: absolute;
+    bottom: 1%;
+    left: 60%;
+    float: left;
+}
+div#leftArrowHolder  {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 8%;
+    height: 100%;
+    
+}
+div#leftArrowHolder:hover  {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 8%;
+    height: 100%;
+    background: #cecdca;
+    opacity: .5;
+}
+img#leftArrowTemplate {
+    position: absolute;
+    top: 45%;
+    left: 1%;
+    
+}
+div#rightArrowHolder  {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 8%;
+    height: 100%;
+    
+}
+div#rightArrowHolder:hover  {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 8%;
+    height: 100%;
+    background: #cecdca;
+    opacity: .5;
+}
+img#rightArrowTemplate {
+    position: absolute;
+    top: 45%;
+    right: 1%;
+}
+div#grad1 {
+    position: relative;
+    height: 60%;
+    margin-top: -435px;
+    margin-left: 2.5%;
+    width: 25%;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    border: 2px outset gray;
+}
+div#headline {
+    position: absolute;
+    height: 9%;
+    width: 100%;
+    border-bottom: 1px outset gray;
+    font-family:  Candara, Sans-serif, courier;
+    text-align: center;
+    font-size: 2.3em;
+}
+div.singleArticle {
+    position: relative;
+    width: 99%;
+    height: 4.5%;
+    top: 9%;
+    border: 1px solid black;
+    padding-left: 3px;
+    font-size: 90%;
+}
+div.singleArticle:hover {
+    position: relative;
+    width: 98.5%;
+    height: 4.5%;
+    border: 1px solid black;
+    background: #dbd9d0;
+}
+div#support {
+    position: relative;
+    top: 9%;
+    height: 65%;
+    width: 100%;
+    background: -webkit-linear-gradient(black, gray);
+    background: -ms-linear-gradient(black, gray);
+    background: -moz-linear-gradient(black, gray);
+    background: -o-linear-gradient(black, gray);
+}
+div#supportHeadline {
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    border-bottom: 1px outset gray;
+    font-family:  Candara, Sans-serif, courier;
+    text-align: center;
+    font-size: 2.3em;
+    background: gray;
+}
+div.supportText {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    top: 15.25%;
+    border: 1px outset gray;
+    color: white;
+    font-family: Candara, Sans-serif, courier;
+
+}
+div.supportText:hover {
+    position: relative;
+    width: 100%;
+    height: 7%;
+    top: 15.25%;
+    border: 1px outset gray;
+    color: white;
+    font-family: Candara, Sans-serif, courier;
+    background: #f2102e;
+}
+div#headline2 {
+    position: absolute;
+    top: 0%;
+    height: 31%;
+    width: 100%;
+    border-bottom: 1px outset gray;
+    font-family:  Candara, Sans-serif, courier;
+    text-align: center;
+    font-size: 2.3em;
+}
+div#grad2 {
+    position: relative;
+    height: 46%;
+    margin-top: 50px;
+    margin-left: 0%;
+    width: 100%;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+}
+div.singleArticle2 {
+    position: relative;
+    width: 99%;
+    height: 15%;
+    top: 30%;
+    border: 1px solid black;
+    padding-left: 3px;
+    font-size: 90%;
+}
+div.singleArticle2:hover {
+    position: relative;
+    width: 98.5%;
+    height: 15%;
+    border: 1px solid black;
+    background: #dbd9d0;
+}
+div#bottomHolder {
+    position: relative;
+    top: 20px;
+    height: 50%;
+    width: 99.69%;
+    border: 2px outset gray;
+    background: -webkit-linear-gradient(left top, #5b5a54, #dbd9d0);
+    background: -o-linear-gradient(bottom right, #5b5a54, #dbd9d0);
+    background: -ms-linear-gradient(bottom right, #5b5a54, #dbd9d0);
+    background: linear-gradient(to bottom right, #5b5a54, #dbd9d0);
+}
+ul#bottomUl {
+    width: 100%;
+    margin-left: -2.5em;
+}
+ul#bottomUl > li {
+    //outline: 1px solid red;
+    border: 1px solid black;
+    float: left;
+    width: 24.8%; //100% / 4 = 25%
+    
+}
+ul#bottomUl > li > a {
+    display: block;
+    //outline: 1px solid black;
+    text-align: center;
+    font-size: 1.625em;//26 / 16
+}
+ul#bottomUl > li:hover > a {
+    display: block;
+    //outline: 1px solid black;
+    text-align: center;
+    font-size: 1.625em;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white); 
+} 
+ul#sublist1 {
+    display: none;
+    
+}
+ul#bottomUl > li:hover > ul#sublist1 {
+    display: block;
+}
+ul#sublist1 {
+    position: absolute;
+    width: 8.0645em;//200 / 24.8
+    
+}
+ul#sublist1 > li {
+    text-align: center;
+    position: relative;
+    left: 3.5em;
+    height: 4em;
+}
+
+ul#sublist1 > li > a {
+    display: block;
+    height: 3.2em;
+    font-size: 1.2em;
+    line-height: 3.2em;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+    
+}
+ul#sublist1 > li:hover > a {
+    display: block;
+    height: 3.2em;
+    font-size: 1.2em;
+    line-height: 3.2em;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+}
+//ul#sublist2
+
+ul#sublist2{
+  //display: none;
+  outline: 1px solid red;
+  position: absolute;
+  left: 10em;
+  display: none;
+}
+ul#sublist1 > li:hover > ul#sublist2 {
+    display: block;
+}
+ul#sublist1 > li > ul#sublist2 > li {
+    position: relative;
+    left: 5em;
+    display: none;
+}
+ul#sublist1 > li:hover > ul#sublist2 > li {
+    position: relative;
+    top: -4em;
+    left: 5.6em;
+    display: block;
+    width: 9em;
+    height: 4em;
+    
+}
+ul#sublist2 > li:hover {
+    background: #dbd9d0;
+}
+ul#sublist2 > li > a {
+    display: block;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    height: 100%;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+}
+ul#sublist1 > li:hover > ul#sublist2 > li > a.oneLine {
+    display: block;
+    font-size: 1.2em;
+    height: 100%;
+    line-height: 3em;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+}
+ul#sublist1 > li > a.oneLine {
+    display: block;
+    height: 3.2em;
+    font-size: 1.2em;
+    line-height: 3em;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+}
+
+ul#sublist1 > li:hover > a.oneLine {
+    display: block;
+    height: 3.2em;
+    font-size: 1.2em;
+    line-height: 3em;
+    border: 1px solid black;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+}
+ul#sublist1 > li:hover > a.doubleLines {
+    display: block;
+    height: 3.2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    background: -webkit-linear-gradient(gray, white);
+    background: -ms-linear-gradient(gray, white);
+    background: -moz-linear-gradient(gray, white);
+    background: -o-linear-gradient(gray, white);
+}
+ul#sublist1 > li > a.doubleLines {
+    display: block;
+    height: 3.2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+#closing {
+    font-size: 1em;
+    position: absolute;
+    left: 45%;
+}
+
+//videos.html//
+
+
+div#firstCaption {
+    position: absolute;
+    bottom: 100px;
+    border: 2px solid black;
+    font-size: 1.3em;
+    background: #dbd9d0;
+    width: 20%;
+    height: 40%;
+    float: left;
+}
